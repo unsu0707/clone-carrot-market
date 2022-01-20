@@ -1,9 +1,9 @@
 import { NextPage } from "next";
 
-const Articles: NextPage = () => {
+const CommunityArticles: NextPage = () => {
   return (
     <div className="py-10 space-y-8">
-      {[1, 1, 1, 1, 1].map((_, i) => (
+      {[1, 2, 3, 4, 5, 6].map((_, i) => (
         <div key={i} className="flex cursor-pointer flex-col items-start">
           <span className="flex ml-4 items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-gray-100 text-gray-800">
             ご近所質問
@@ -74,4 +74,4 @@ const Articles: NextPage = () => {
   );
 };
 
-export default Articles;
+export default CommunityArticles;
