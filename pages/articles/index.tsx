@@ -32,7 +32,7 @@ const CommunityArticles: NextPage = () => {
                   d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"
                 ></path>
               </svg>
-              <span>궁금해요 1</span>
+              <span>気になる 1</span>
             </span>
             <span className="flex space-x-2 items-center text-sm">
               <svg
@@ -49,7 +49,7 @@ const CommunityArticles: NextPage = () => {
                   d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"
                 ></path>
               </svg>
-              <span>답변 1</span>
+              <span>回答 1</span>
             </span>
           </div>
         </div>
