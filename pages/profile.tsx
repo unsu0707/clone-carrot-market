@@ -2,17 +2,17 @@ import { NextPage } from "next";
 
 const Profile: NextPage = () => {
   return (
-    <div>
-      <div>
-        <div />
+    <div className="py-10 px-4">
+      <div className="flex space-x-3 items-center">
+        <div className="h-12 w-12 bg-slate-400 rounded-full" />
         <div>
-          <span>Stephen Joves</span>
-          <span>Edit Profile &rarr;</span>
+          <p className="text-gray-900 font-medium text-md">Stephen Joves</p>
+          <p className="text-gray-700 text-sm">Edit Profile &rarr;</p>
         </div>
       </div>
-      <div>
-        <div>
-          <div>
+      <div className="mt-10 flex justify-around">
+        <div className="flex flex-col items-center">
+          <div className="h-14 w-14 rounded-full bg-orange-500 flex items-center justify-center  text-white">
             <svg
               className="w-6 h-6"
               fill="none"
@@ -28,10 +28,10 @@ const Profile: NextPage = () => {
               ></path>
             </svg>
           </div>
-          <span>出品履歴</span>
+          <span className="mt-2 text-sm text-gray-700">出品履歴</span>
         </div>
-        <div>
-          <div>
+        <div className="flex flex-col items-center">
+          <div className="h-14 w-14 rounded-full bg-orange-500 flex items-center justify-center  text-white">
             <svg
               className="w-6 h-6"
               fill="none"
@@ -47,10 +47,10 @@ const Profile: NextPage = () => {
               ></path>
             </svg>
           </div>
-          <span>購入履歴</span>
+          <span className="mt-2 text-sm text-gray-700">購入履歴</span>
         </div>
-        <div>
-          <div>
+        <div className="flex flex-col items-center">
+          <div className="h-14 w-14 rounded-full bg-orange-500 flex items-center justify-center  text-white">
             <svg
               className="w-6 h-6"
               fill="none"
@@ -66,13 +66,15 @@ const Profile: NextPage = () => {
               ></path>
             </svg>
           </div>
-          <span>いいね！一覧</span>
+          <span className="mt-2 text-sm text-gray-700">いいね！一覧</span>
         </div>
-        <div>
-          <div />
+      </div>
+      <div className="mt-12">
+        <div className="flex items-center space-x-4">
+          <div className="w-12 h-12 mr-4 bg-slate-400 rounded-full" />
           <div>
-            <h4>ウンスッス</h4>
-            <div>
+            <h4 className="font-medium text-sm text-gray-900">ウンスッス</h4>
+            <div className="flex items-center">
               <svg
                 className="text-yellow-400 h-5 w-5"
                 xmlns="http://www.w3.org/2000/svg"
@@ -122,7 +124,9 @@ const Profile: NextPage = () => {
           </div>
         </div>
         <div>
-          <p>売り買いマスターと呼んでください。</p>
+          <p className="mt-4 text-sm text-gray-600">
+            この人は売り買いマスターです。いい取引ができました。やっぱり漫画が好きで好きで好きでたまらない。漫画のことは漫画好きに聴こう。今読むべき３２５作品。週刊スピリッツ「新連載」
+          </p>
         </div>
       </div>
     </div>
